@@ -8,7 +8,7 @@ plugins {
 sonarqube {
     properties {
         //property "sonar.host.url", "https://sonarqube<your project>.pathfinder.gov.bc.ca"        
-        property "sonar.projectName", "<Your Project Name>"
+        property "sonar.projectName", "AppSec Coolstore Example"
         property "sonar.projectKey", "org.sonarqube:bcgov-<your project name>"
         property "sonar.projectBaseDir", "../"
         property "sonar.sources", "./"
@@ -18,7 +18,7 @@ sonarqube {
         //property "sonar.python.xunit.reportPath","nosetests.xml"
         //property "sonar.python.coverage.reportPath","coverage.xml"
         //
-        property "sonar.python.coveragePlugin","cobertura"
+        //property "sonar.python.coveragePlugin","cobertura"
         property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
 
     }
